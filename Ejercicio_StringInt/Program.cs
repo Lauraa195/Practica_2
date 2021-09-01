@@ -8,6 +8,7 @@ namespace Ejercicio_StringInt
 {
     class Program
     {
+        //stringint
         static void Main(string[] args)
         {
             String nombre;
@@ -18,6 +19,7 @@ namespace Ejercicio_StringInt
             edad = int.Parse(Console.ReadLine());
             Console.WriteLine("Te llamas " + nombre + " y tienes " + edad + " años");
             Console.ReadKey();
+            
         }
     }
 }
